@@ -1,0 +1,60 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "syncster31"
+  subtitle    = "Engineer..Coder"
+
+  cover       = "images/cover-photo.jpeg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "syncster31"
+  fbName = "alexius.sayco"
+  githubName = "alexiusacademia"
+
+  logo = ""
+  orgName = "sync"
+  orgWebsite = ""
+  orgDescription = ""
+
+  author = "syncster31"
+  authorAvatar = "https://avatars2.githubusercontent.com/u/19258246?s=460&v=4"
+  authorLocation = "Tarlac City, PH"
+  authorWebsite = "https://alexiusacademia.com"
+  authorDescription = "Engineer..Developer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Go"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Food"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
