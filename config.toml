@@ -1,4 +1,4 @@
-baseurl         = ""
+baseurl         = "https://silly-keller-f2dfe1.netlify.com"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
