@@ -3,7 +3,7 @@ title: "365 Days Java Challenge"
 date: 2018-04-26T06:42:05+08:00
 draft: false
 image: "images/java-challenge.jpeg"
-tags: ["motivation"]
+tags: ["motivation", "self-motivation"]
 ---
 > The biggest challenge is to stay focused. It's to have the discipline when there are so many competing things.
 >
