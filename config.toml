@@ -3,6 +3,7 @@ theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
+title           = "Alexius Academia"
 #SectionPagesMenu = "main"
 
 [params]
