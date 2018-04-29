@@ -3,7 +3,7 @@ title: "Calculate Flow in a Rectangular Channel"
 date: 2018-04-29T08:56:44+08:00
 draft: false
 tags: ["tutorials", "python", "hydraulics", "open channel"]
-image: "images/rectangular_channel.png"
+image: "images/rectangular_channel.jpeg"
 ---
 
 Flow calculation is critical specially for hydraulics engineers. There are numerous commercial softwares available on the market to does the job. But what if there are few open source softwares that can do the job as well?
