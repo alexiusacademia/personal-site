@@ -1,7 +1,7 @@
 ---
 title: "Calculate Flow in a Rectangular Channel"
 date: 2018-04-29T08:56:44+08:00
-draft: true
+draft: false
 tags: ["tutorials", "python", "hydraulics", "open channel"]
 image: "images/rectangular_channel.png"
 ---
