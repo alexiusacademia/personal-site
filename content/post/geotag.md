@@ -25,4 +25,4 @@ Before the app creates a download link, it goes to a stage where it parses each 
 
 The app is still active and can be found at [https://geotag.alexiusacademia.com](https://geotag.alexiusacademia.com)
 
-For those who are interested in the app, you can try it free. Please let me know of what you think of it. Thanks!
+For those who are interested in the app, you can try it free. I will be leaving the app online for some time for evaluation purposes and maybe end it or move to other server when I can afford it as it may take a very large amount of web space and I can't support it in my personal site anymore. Please let me know of what you think of it. Thanks!
