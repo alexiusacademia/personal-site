@@ -81,6 +81,13 @@
   text-align: center;
 }
 
-input [type="text"] {
-  display: block;
+.form-group {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.button {
+  padding: 5px;
+
 }
