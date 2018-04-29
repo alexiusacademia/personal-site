@@ -39,9 +39,12 @@ paginate        = 6
 [permalinks]
   post = "/:slug/"
   #projects = "/:slug/"
-  #
-# Enable coomments
-disqusShortname = "syncster31"
+
+[staticman]
+  endpoint = "https://api.staticman.net/v2/entry/"
+  username = "alexiusacademia"
+  repository = "personal-site"
+  branch = "master"
 
 [[menu.main]]
   name = "Home"
