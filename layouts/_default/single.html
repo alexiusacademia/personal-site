@@ -32,6 +32,10 @@
   </div>
 </main>
 
+<h2>Comments</h2>
+{{ partial "staticman/form-comments" . }}
+{{ partial "staticman/show-comments" . }}
+
 {{if eq .Site.Params.singleViewStyle "casper"}}
 <aside class="read-next outer">
   <div class="inner">
@@ -49,10 +53,6 @@
 
 {{ partial "header-floating-sori" . }}
 {{end}}
-
-<h2>Comments</h2>
-{{ partial "staticman/form-comments" . }}
-{{ partial "staticman/show-comments" . }}
 
 {{ partial "footer" . }}
 </div>
