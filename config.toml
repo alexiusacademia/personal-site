@@ -53,3 +53,8 @@ paginate        = 6
   name = "Motivation"
   url = "/categories/motivation/"
   weight = 99
+
+[[menu.main]]
+  name = "Tutorials"
+  url = "/tags/tutorials/"
+  weight = 95
