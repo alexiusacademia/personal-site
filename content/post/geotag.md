@@ -23,6 +23,6 @@ The application's feature is at the most basic it can be. It features creating a
 
 Before the app creates a download link, it goes to a stage where it parses each images in an album, creates a kml (keyhole markup language) file then presents its download link.
 
-The app is still active and can be found at [https://geotag.alexiusacademia.com](https://geotag.alexiusacademia.com)
+The app is still active and can be found at [https://geotag.alexiusacademia.com](https://alex-geotag.upsystemsolutions.com)
 
 For those who are interested in the app, you can try it free. I will be leaving the app online for some time for evaluation purposes and maybe end it or move to other server when I can afford it as it may take a very large amount of web space and I can't support it in my personal site anymore. Please let me know of what you think of it. Thanks!
