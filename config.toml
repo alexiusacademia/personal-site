@@ -1,7 +1,7 @@
 baseurl         = "https://alexiusacademia.com"
 theme           = "casper-two"
 languageCode    = "en-US"
-disqusShortname = ""
+disqusShortname = "syncster31"
 paginate        = 6
 title           = "Alexius Academia"
 #SectionPagesMenu = "main"
