@@ -1,6 +1,6 @@
 ---
 title: "365 Days Java Challenge"
-date: 2018-04-26T06:42:05+08:00
+date: 2018-04-30
 draft: false
 image: "images/java-challenge.jpeg"
 tags: ["motivation", "self-motivation"]
