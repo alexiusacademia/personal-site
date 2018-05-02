@@ -2,7 +2,7 @@ baseurl         = "https://alexiusacademia.com"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = "syncster31"
-paginate        = 6
+paginate        = 4
 title           = "Alexius Academia"
 #SectionPagesMenu = "main"
 
@@ -10,8 +10,9 @@ title           = "Alexius Academia"
   title       = "syncster31"
   subtitle    = "Engineer..Coder"
 
+  categoriesCover = "images/dark_cloud.jpeg"
   cover       = "images/cover-photo.jpeg"
-  description = "Here is a description of your site."
+  description = "Just..."
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
