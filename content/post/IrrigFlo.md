@@ -21,3 +21,10 @@ This page will serve as the timeline documentation of the project and will be up
 - Continue work on the library and incorporating some implementations.
 - Stays at 'RectangularOpenChannel' class.
 - I also started writing exception handling at this stage. I don't know when you should be doing that but I did it anyway.
+
+### Day 3 - May 9, 2018
+- Improve the exception handling
+- Added two (2) constructors for RectangularOpenChannel class, 1st with unknown as parameter, 2nd is unknown and the rest of inputs.
+- This time I started to compile the library into a jar file and used in another project just to see if it works, it does.
+- To add a little spice, the graphical user interface has been drafted.
+![alt text](/images/irrig_flo_first_gui_draft.JPG "First draft of the UI")
