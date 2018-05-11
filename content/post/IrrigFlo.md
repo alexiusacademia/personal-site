@@ -6,7 +6,7 @@ categories: ["projects"]
 image: "images/irrig_flo.jpeg"
 ---
 
-**IrrigFlo** is an open source java software that aims to be an alternative to commercial hydraulics softwares like Bently's FlowMaster and others. 
+**IrrigFlo** is an open source java software that aims to be an alternative to commercial hydraulics softwares like Bently's FlowMaster and others.
 
 The project will be written in java from scratch including all the core libraries.
 
@@ -28,3 +28,13 @@ This page will serve as the timeline documentation of the project and will be up
 - This time I started to compile the library into a jar file and used in another project just to see if it works, it does.
 - To add a little spice, the graphical user interface has been drafted.
 ![alt text](/images/irrig_flo_first_gui_draft.JPG "First draft of the UI")
+
+### Day 4 - May 11, 2018
+- Start work on TrapezoidalOpenChannel class, for trapezoidal channel calculations.
+- Written the essential codes for the class.
+- Below is a sample problem solved using an online calculator.
+![alt text](/images/day28/trapezoidal_channel_sample_problem.png "Sample Problem")
+- Below is the sample implementation of the class
+![alt text](/images/day28/trapezoidal_channel_implementation.png "Implementation")
+- Below is the result of the sample implementation. Can be compared with the result in the sample problem.
+![alt text](/images/day28/trapezoidal_channel_result.png "Result")
