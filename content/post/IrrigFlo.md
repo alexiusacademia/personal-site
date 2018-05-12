@@ -38,3 +38,7 @@ This page will serve as the timeline documentation of the project and will be up
 ![alt text](/images/day28/trapezoidal_channel_implementation.png "Implementation")
 - Below is the result of the sample implementation. Can be compared with the result in the sample problem.
 ![alt text](/images/day28/trapezoidal_channel_result.png "Result")
+
+### Day 5 - May 12, 2018
+- Completed critical flow analysis on trapezoidal open channel
+![alt text](/images/day29/critical_flow.png "Critical flow")
