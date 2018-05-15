@@ -55,3 +55,7 @@ This page will serve as the timeline documentation of the project and will be up
 - Finally solved the bug in the critical flow of the circular open channel.
 - The problem is in the written function that gets some parameters that are not in the critical flow!
 - Published new version of the library v1.1.0
+<img src="/images/day32/2nd_release.png" width="600" alt="second release" />
+<img src="/images/day32/sample_problem.png" width="600" alt="sample problem" />
+<img src="/images/day32/implementation.png" width="600" alt="implementation" />
+<img src="/images/day32/result.png" width="600" alt="result" />
