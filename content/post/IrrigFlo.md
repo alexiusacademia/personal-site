@@ -33,12 +33,25 @@ This page will serve as the timeline documentation of the project and will be up
 - Start work on TrapezoidalOpenChannel class, for trapezoidal channel calculations.
 - Written the essential codes for the class.
 - Below is a sample problem solved using an online calculator.
-![alt text](/images/day28/trapezoidal_channel_sample_problem.png "Sample Problem")
+<img src="/images/day28/trapezoidal_channel_sample_problem.png" width="600" alt="sample problem" />
 - Below is the sample implementation of the class
-![alt text](/images/day28/trapezoidal_channel_implementation.png "Implementation")
+<img src="/images/day28/trapezoidal_channel_implementation.png" width="600" alt="implementation" />
 - Below is the result of the sample implementation. Can be compared with the result in the sample problem.
-![alt text](/images/day28/trapezoidal_channel_result.png "Result")
+<img src="/images/day28/trapezoidal_channel_result.png" width="600" alt="result" />
 
 ### Day 5 - May 12, 2018
 - Completed critical flow analysis on trapezoidal open channel
-![alt text](/images/day29/critical_flow.png "Critical flow")
+<img src="/images/day29/critical_flow.png" width="600" alt="critical flow" />
+
+### Day 6 - May 13, 2018
+- Published a release on github v1.0.0
+<img src="/images/day30/1st_release.png" width="600" alt="First release"/>
+
+### Day 7 - May 14, 2018
+- Working on CircularOpenChannel class for solving circular pipes that are not flowing full.
+- Stuck on the critical flow in circular channel
+
+### Day 8 - May 15, 2018
+- Finally solved the bug in the critical flow of the circular open channel.
+- The problem is in the written function that gets some parameters that are not in the critical flow!
+- Published new version of the library v1.1.0
