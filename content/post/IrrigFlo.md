@@ -5,6 +5,8 @@ lastmod: 2018-05-20
 draft: false
 categories: ["projects"]
 image: "images/irrig_flo.jpeg"
+description: "A java library for solving hydraulics engineering problems."
+tags: ["java library", "hydraulics engineering", hydraulics"]
 ---
 
 **IrrigFlo** is an open source java software that aims to be an alternative to commercial hydraulics softwares like Bently's FlowMaster and others.
