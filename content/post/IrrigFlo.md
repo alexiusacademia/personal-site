@@ -1,6 +1,7 @@
 ---
 title: "IrrigFlo"
 date: 2018-05-08T19:43:11+08:00
+lastmod: 2018-05-20
 draft: false
 categories: ["projects"]
 image: "images/irrig_flo.jpeg"
@@ -59,3 +60,10 @@ This page will serve as the timeline documentation of the project and will be up
 <img src="/images/day32/sample_problem.png" width="600" alt="sample problem" />
 <img src="/images/day32/implementation.png" width="600" alt="implementation" />
 <img src="/images/day32/result.png" width="600" alt="result" />
+
+### Day 13 - May 20, 2018
+- Continue work on the library particularly on the IrregularSectionChannel class
+- Finished coding and testing of the normal flow on irregular sections
+<img src="/images/day36/irrig_flo_1.png" width="600" alt="Implementation" />
+<img src="/images/day36/irrig_flo_2.png" width="600" alt="Implementation" />
+<img src="/images/day36/irrig_flo_3.png" width="600" alt="Result of normal flow on irregular section channel" />
