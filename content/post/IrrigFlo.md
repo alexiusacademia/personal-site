@@ -69,3 +69,9 @@ This page will serve as the timeline documentation of the project and will be up
 <img src="/images/day36/irrig_flo_1.png" width="600" alt="Implementation" />
 <img src="/images/day36/irrig_flo_2.png" width="600" alt="Implementation" />
 <img src="/images/day36/irrig_flo_3.png" width="600" alt="Result of normal flow on irregular section channel" />
+
+### Day 15 - May 22, 2018
+- Continue on the library
+- Completed the feature for irregular section channels
+- Published a release of the library v1.2.0
+<img src="/images/day38/v1.2.0.png" width="600" alt="Release IrrigFlo v1.2.0" />
