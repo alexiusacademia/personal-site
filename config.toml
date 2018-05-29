@@ -67,3 +67,8 @@ title           = "Alexius Academia"
   name = "Tutorials"
   url = "/tags/tutorials/"
   weight = 95
+
+  [[menu.main]]
+    name = "Privacy Policy"
+    url = "/privacy-policy/"
+    weight = 95
