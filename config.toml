@@ -28,6 +28,12 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   identifier = "tags"
   url = "/tags/"
 
+[[menu.main]]
+  name = "Privacy Policy"
+  weight = 40
+  identifier = "privacy_policy"
+  url = "/post/privacy-policy-this-site/"
+
 # Add your own params here
 [params]
   author = "Alex"
