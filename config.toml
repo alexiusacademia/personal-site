@@ -1,74 +1,99 @@
-baseurl         = "https://alexiusacademia.com"
-theme           = "casper-two"
-languageCode    = "en-US"
+baseURL = "http://localhost:1313"
+languageCode = "en"
+title = "Alexius Academia"
+theme = "hugo-nuo"
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Disqus Username
 disqusShortname = "syncster31"
-paginate        = 4
-title           = "Alexius Academia"
-#SectionPagesMenu = "main"
 
-[params]
-  title       = "syncster31"
-  subtitle    = "Engineer..Coder"
+# Google Analytics UA number
+googleAnalytics = "UA-XXXXXXXX-X"
 
-  categoriesCover = "images/dark_cloud.jpeg"
-  cover       = "images/cover-photo.jpeg"
-  description = "Just..."
-  metaDescription = ""
-  googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
+# Copyright of your post
+copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce."
 
-  twitterName = "syncster31"
-  fbName = "alexius.sayco"
-  githubName = "alexiusacademia"
-
-  logo = ""
-  orgName = "syncster31"
-  orgWebsite = ""
-  orgDescription = ""
-
-  author = "syncster31"
-  authorAvatar = "https://avatars2.githubusercontent.com/u/19258246?s=460&v=4"
-  authorLocation = "Tarlac City, PH"
-  authorWebsite = "https://alexiusacademia.com"
-  authorDescription = "Engineer..Developer"
-
-  pageNotFoundTitle = "404 - Page not found"
-
-  #casper or caspertwo
-  singleViewStyle = "casper"
-
-[permalinks]
-  post = "/:slug/"
-  #projects = "/:slug/"
-
-[staticman]
-  endpoint = "https://api.staticman.net/v2/entry/"
-  username = "alexiusacademia"
-  repository = "personal-site"
-  branch = "master"
-
+# Initial site menu, you can extend menu with content.
 [[menu.main]]
   name = "Home"
+  weight = 10
+  identifier = "home"
   url = "/"
-  weight = 200
 
 [[menu.main]]
   name = "Projects"
+  weight = 20
+  identifier = "works"
   url = "/categories/projects/"
-  weight = 100
 
 [[menu.main]]
-  name = "Motivation"
-  url = "/tags/motivation/"
-  weight = 99
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
 
-[[menu.main]]
-  name = "Tutorials"
-  url = "/tags/tutorials/"
-  weight = 95
+# Add your own params here
+[params]
+  author = "Alex"
+  avatar = "/img/avatar.jpg"
+  seotitle = "Hugo Blog (SEO Version)"
+  subtitle = "~ Keep It Simple & Stupid ~"
+  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  paginate = 10
 
-  [[menu.main]]
-    name = "Privacy Policy"
-    url = "/privacy-policy/"
-    weight = 95
+  # Choose your social networks
+  email = "name@domain.com"
+  github = "github_username"
+  twitter = "twitter_username"
+  linkedin = "linkedin_username"
+  weibo = "weibo_username"
+  wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  # facebook = "facebook_username"
+  # google = "googlplus_id_number"
+  # instagram = "instagram_username"
+  # youtube = "youtube_username"
+  # vimeo = "vimeo_username"
+  # medium = "medium_username"
+  # quora = "quora_username"
+  # pinterest = "pinterest_username"
+  # dribbble = "dribbble_username"
+  # behance = "behance_username"
+  # jsfiddle = "jsfiddle_username"
+  # codepen = "codepen_username"
+  # zhihu = "zhihu_username"
+  # douban = "douban_username"
+  # bilibili = "bilibili_id_number"
+
+  # Changyan Comments (China Only)
+  changyan = false
+  changyanId = "cyt3toRiB"
+  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
+
+  # Google Webmaster
+  # https://www.google.com/webmasters/
+  googleSiteVerification = "_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc"
+
+  # Bing Webmaster
+  # https://www.bing.com/toolbox/webmaster/
+  msValidate = "22596E34341DD1D17D6022C44647E587"
+
+  # Baidu Webmaster (China Only)
+  # https://zhanzhang.baidu.com/
+  # baiduSiteVerification = "MZ23SPxxfa"
+
+  # Sogou Webmaster (China Only)
+  # http://zhanzhang.sogou.com/
+  # sogouSiteVerification = "m2jktMQTZm"
+
+  # 360 Webmaster (China Only)
+  # http://zhanzhang.so.com/
+  # soSiteVerification = "b7ab3b4c2edbc856642004d1b8c27a91"
+
+  # Baidu Tongji (China Only)
+  # https://tongji.baidu.com/
+  # baiduTongji = "e21dc1e8a592188271b615159dc88af7"
+
+  # ICP Number (China Only)
+  # ICP = "苏ICP备16005986号-2"
