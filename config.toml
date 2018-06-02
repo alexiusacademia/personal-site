@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://alexiusacademia.com"
 languageCode = "en"
 title = "Alexius Academia"
 theme = "hugo-nuo"
