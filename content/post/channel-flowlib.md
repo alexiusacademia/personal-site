@@ -4,6 +4,7 @@ date: 2018-04-29T10:37:42+08:00
 draft: false
 image: "images/channel_flowlib.png"
 categories: ["projects"]
+tags: ["projects"]
 ---
 ChannelFlowLib is a python library that can be used as aid in solving hydraulic calculations for open channels. It uses the Manning’s equation in solving the hydraulic elements.
 

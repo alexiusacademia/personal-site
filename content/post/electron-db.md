@@ -3,6 +3,7 @@ title: "Electron Db"
 date: 2018-04-29T11:19:59+08:00
 draft: false
 categories: ["projects"]
+tags: ["projects"]
 image: "images/electron-db.png"
 ---
 # electron-db

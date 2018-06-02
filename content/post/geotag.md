@@ -4,6 +4,7 @@ date: 2018-04-29T11:31:59+08:00
 draft: false
 image: "images/geotag.png"
 categories: ["projects"]
+tags: ["projects"]
 ---
 **Geotag** is a simple web-based application I wrote using PHP and MySQL for backend.
 
