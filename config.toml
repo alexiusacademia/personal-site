@@ -23,6 +23,12 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "/"
 
 [[menu.main]]
+  name = "Tutorials"
+  weight = 20
+  identifier = "tutorials"
+  url = "/tags/tutorials/"
+
+[[menu.main]]
   name = "Tags"
   weight = 30
   identifier = "tags"
