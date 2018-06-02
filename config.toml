@@ -23,12 +23,6 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "/"
 
 [[menu.main]]
-  name = "Projects"
-  weight = 20
-  identifier = "works"
-  url = "/categories/projects/"
-
-[[menu.main]]
   name = "Tags"
   weight = 30
   identifier = "tags"
@@ -40,7 +34,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   avatar = "/img/avatar.jpg"
   seotitle = "Alexius Academia"
   subtitle = "~ Nothing Cannot be Achieved ~"
-  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
+  description = ""
   paginate = 10
 
   # Choose your social networks
