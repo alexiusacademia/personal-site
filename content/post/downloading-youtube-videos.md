@@ -1,5 +1,5 @@
 ---
-title: "Downloading Youtube Videos"
+title: "Downloading Youtube Videos Easily"
 date: 2018-05-24T16:35:42+08:00
 draft: false
 image: "/images/downloading-youtube-videos/download-youtube.jpeg"
