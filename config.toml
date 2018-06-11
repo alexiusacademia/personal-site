@@ -46,6 +46,12 @@ copyright = ""
   identifier = "privacy_policy"
   url = "/post/privacy-policy-this-site/"
 
+[[menu.main]]
+  name = "Best Gadgets"
+  weight = 60
+  identifier = "best_gadgets"
+  url = "https://suggestedgadgets.com"
+
 # Add your own params here
 [params]
   author = "Alex"
