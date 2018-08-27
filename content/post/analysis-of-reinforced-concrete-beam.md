@@ -5,6 +5,8 @@ draft: false
 ---
 ## Moment-Curvature (M - $\phi$) Relationship
 
+This problem is given to our subject in Advanced Design of Reinforced Concrete in my master's degree of Structural Engineering.
+
 ### I. Problem:
 
 ------
