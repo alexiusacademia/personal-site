@@ -151,13 +151,13 @@ The resulting graph for all cases is shown below:
 
 ***Figure 2: Moment Capacity vs. Steel Reinforcement relationship curve*** 
 
-![](\img\output_3_1.png)
+![](/img/output_3_1.png)
 
 Also, a snippet of the resulting table of calculated $As$ and $Mn$ is shown below showing the transition between the steel yielding and not yielding.
 
 ***Figure 3: Snippet of case 4 results***
 
-![](\img\Result_snippet.png)
+![](/img/Result_snippet.png)
 
 Note that the snippet above is part of the **Case 4** of this problem.
 
