@@ -1,7 +1,7 @@
 ---
 title: "Moment Capacity Curve"
 date: 2018-09-06T23:53:40+08:00
-draft: true
+draft: false
 ---
 ## Moment-Capacity vs. Steel Area Relationship
 
