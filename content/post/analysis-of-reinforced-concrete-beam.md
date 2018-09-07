@@ -1,7 +1,7 @@
 ---
 title: "Analysis of Reinforced Concrete Beam"
 date: 2018-08-27T09:56:28+08:00
-draft: false
+draft: true
 ---
 ## Moment-Curvature (M - $\phi$) Relationship
 
