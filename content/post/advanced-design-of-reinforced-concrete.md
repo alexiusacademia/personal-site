@@ -3,8 +3,7 @@ title: "Advanced Design of Reinforced Concrete"
 date: 2018-09-07T09:29:59+08:00
 draft: false
 ---
-
-#  Notes on Advanced Design of Reinforced Concrete
+# Notes: Advanced Design of Reinforced Concrete
 
 
 
@@ -110,7 +109,7 @@ The strength of concrete is dependent on the mixture of cement, aggregates, wate
 
 The most important variable in determining concrete strength is the <u>water-cement ratio</u>. The lower the ratio, the higher the compressive strength.
 
-![](D:\Personal\Masteral\AdvancedConcreteDesign\Notes\Figure1-Water-Cement-Ratio.PNG)
+![](/images/Figure1-Water-Cement-Ratio.PNG)
 
 Nearly all reinforced concrete behavior is related to the 28-days compressive strength, $f'c$. Note that this still depends on the size and shape of the test specimen. In normal weight concrete, in average, the 6 x 12in  cylinder is 80% of the 150-mm cube strength and 83% of the 200-mm cube strength.
 
@@ -140,7 +139,7 @@ Ec = 4,700\sqrt{f'c}
 $$
 where Ec is in MPa (ACI 318-05M).
 
-![](D:\Personal\Masteral\AdvancedConcreteDesign\Notes\Figure2-Concrete-Stress-STrain-Curve.PNG)
+![](/images/Figure2-Concrete-Stress-STrain-Curve.PNG)
 
 
 
@@ -226,7 +225,7 @@ Figure 3.2 above shows stress distributions of a singly reinforced concrete beam
 
 1. Stage 1 (Figure 3.2 - a) - shows linear stress distribution in compression down to tension zone. This is also known as *elastic-uncrack stage*.
 2. Stage 2 (Figure 3.2 - b) - shows a nonlinear stress distribution and that neutral axis goes higher towards compression zone. This is known as *elastic-crack stage* where concrete in tension area has already reached its cracking capacity.
-3. Stage 3 (Figure 3.2 - c) - neutral axis has moved higher as cracks at the bottom grows. This is also the *inelastic stage*.
+3. Stage 3 (Figure 3.2 - c) - neutral axis has moved higher as cracks at the bottom grows. This is known as the *inelastic stage*.
 
 
 
@@ -345,9 +344,52 @@ In this stage, as also shown in Figure 3.3 (a), stress distribution is linear. F
    $$
    (Section 1.7)
 
-5. One way to solve the internal moment is taking moment to either steel area location or at the centroid of compression stress solid. We can either get and use $fs$ or $fc$ depending on what we will choose by using strain diagram below.
+5. There are 2 ways to solve for the cracking moment now that $kd$ is solved. Either by using the formula
+   $$
+   M_{cr} = \dfrac{fct \cdot Ic}{h-kd}
+   $$
+   which was derived from 
+   $$
+   f = \dfrac{M\cdot y}{I}
+   $$
+   or by using equilibrium and take moment to centroid of compression block using the figure below
 
-6. dzfgsfd
+   <figure><img src="/images/UncrackStressDiagram.jpg" style="display: block; width: 60%; margin: auto auto;"/><figcaption>Figure 3.6 Uncrack Beam Stress Diagram</figcaption></figure>
+
+   By taking moment to the compression block,
+   $$
+   M_{cr} = Tc\cdot (h - \dfrac{kd}{3} - \dfrac{h - kd}{3}) + Ts\cdot (d- \dfrac{kd}{3})
+   $$
+   we should obtain values very close or the same as from eq. (14).
+
+6. After this is the crack stage, where the stress block is no longer linear Figure 3.2 (b), but the behavior is still elastic. That is when strain at concrete $\epsilon_c$ is less than the elastic limit $\epsilon_o$.
+
+   <figure><img src="/images/StressDiagramElastic.jpg" style="display: block; width: 50%; margin: auto auto;" /><figcaption>Figure 3.7 Stress Diagram for Crack Elastic Stage</figcaption></figure>
+
+   So at any value of $\epsilon_c$ at this range, we can use the following formulas in calculating the moment.
+   $$
+   k_2 = \dfrac{1}{4}\cdot \dfrac{(4 - \lambda_o)}{(3 - \lambda_o)}
+   $$
+
+   $$
+   \lambda_o = \dfrac{\epsilon_c}{\epsilon_o}
+   $$
+
+   $$
+   L_o = \dfrac{0.85}{3}\cdot \lambda_o \cdot (3 - \lambda_o)
+   $$
+
+   $$
+   fc = 0.85\cdot f'c \cdot (2\lambda_o - \lambda_o^2)
+   $$
+
+   At this stage, $kd$ is still unknown. We solve for $kd$ assuming steel yields, then we solve for $fs$ to check.
+   $$
+   fs = E_s \cdot \epsilon_c \cdot \dfrac{(d - kd)}{kd}
+   $$
+   If steel does not yield, we know that our assumption is not correct and the value of $kd$ we solve as well is not. We re-calculate for $kd$ by using equilibrium equation replacing $fs$ in the equation in terms of $kd$, so that we solve it using quadratic equation.
+
+7. zxfv
 
 ### Chapter 4: Shear Strength and Shear Reinforcement
 
