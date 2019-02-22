@@ -75,3 +75,7 @@ This page will serve as the timeline documentation of the project and will be up
 - Completed the feature for irregular section channels
 - Published a release of the library v1.2.0
 <img src="/images/day38/v1.2.0.png" width="600" alt="Release IrrigFlo v1.2.0" />
+
+### February 16, 2019
+A new update has been implemented:
+- English system unit is now available for Open Channel flows.
