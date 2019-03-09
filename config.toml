@@ -35,7 +35,7 @@ copyright = ""
   url = "/tags/tutorials/"
 
 [[menu.main]]
-  name = "Song Lysrics"
+  name = "Song Lyrics"
   weight = 35
   identifier = "songlyrics"
   url = "/tags/songlyrics"
