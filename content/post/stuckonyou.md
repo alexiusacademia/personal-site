@@ -10,7 +10,7 @@ draft: false
 *Lyrics interpreted by syncster31*
 
 Stuck on you<br>
-Got this feeling deep down in my soul<br>
+Got this feeling down deep in my soul<br>
 That I just can't lose<br>
 Guess I'm on my way
 
@@ -38,7 +38,7 @@ I've packed up my troubles and I've thrown them all away<br>
 I'm coming home to stay
 
 I'm stuck on you<br>
-I've got this feeling deep down in my soul<br>
+I've got this feeling down deep in my soul<br>
 That I just can't lose<br>
 Guess I'm on my way
 
