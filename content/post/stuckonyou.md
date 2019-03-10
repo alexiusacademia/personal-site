@@ -33,7 +33,7 @@ Could wait around for a man like me<br>
 Guess I'm on my way<br>
 Might be glad you stayed
 
-Ohh I'm leavin' on the midnight train tomorrow<br>
+Ohh I'm leavin' on that midnight train tomorrow<br>
 And I know just where I'm going<br>
 I've packed up my troubles and I've thrown them all away<br>
 'Cause this time little Darlin'<br>
