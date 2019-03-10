@@ -9,6 +9,8 @@ by
 #### Lionel Richie
 *Lyrics interpreted by syncster31*
 
+Watch the video [here](https://www.youtube.com/watch?v=1sjdYCCUlpE&list=PLex6xo-8x5MF1gUHkZTt1NQFwrMagmJDW&index=1)
+
 Stuck on you<br>
 Got this feeling down deep in my soul<br>
 That I just can't lose<br>
