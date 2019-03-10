@@ -5,7 +5,7 @@ categories: ["songlyrics"]
 tags: ["songlyrics"]
 draft: false
 ---
-# Stuck On You
+by
 #### Lionel Richie
 *Lyrics interpreted by syncster31*
 
