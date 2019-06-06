@@ -1,4 +1,4 @@
-baseURL = "https://alexiusacademia.com"
+baseURL = ""
 languageCode = "en"
 title = "Alexius Academia"
 theme = "hugo-nuo"
